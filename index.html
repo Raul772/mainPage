@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#c4c7ed">
+    <title>Raul Victor</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="Source/css/style.css">
+</head>
+
+<body>
+    <header class="container-fluid vh-100">
+        <div class="container-md d-flex flex-column flex-md-row h-100 justify-content-center align-items-center"> 
+            <div class="row justify-content-center text-light">
+                <div class="col-sm-3 p-2 my-2 profile-img">
+                    <img src="media/img/Raul.png" class="img-fluid" alt="Raul Victor">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <p class=" display-5 font-presentation">Olá, eu sou o</p>
+                    <h1 class="display-1 font-destaque text-nowrap">Raul Victor</h1>
+                </div>
+                <div class="col-sm-6 profile-bio">
+                    <p class="text-center">Graduando em Sistemas de Informação pela Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM) e fascinado por tecnologia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="shape-divider-1 vw-100 vh-100">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+        <canvas id="particle-generator"></canvas>
+        
+    </header>
+    
+    <main class="bg-light">
+        <section class="container-fluid projetos">
+            <article class="container py-5">
+                <h2 class="text-center font-title text-dark">Principais projetos</h2>
+                <div class="row g-2 py-5 my-5 justify-content-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="media/img/cards/card-header-img.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Weather Web</h5>
+                                </div>
+                            </div>
+                            <div class="card-back bg-white h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Weather Web</h5>
+                                    <p class="card-text text-center">Trata-se de um site feito em HTML, CSS e JavaScript que mostra as condições climáticas atuais na cidade de onde é acessado. Foi minha primeira vez utilizando APIs.</p>
+                                </div>
+                            </div>
+                            <a href="https://raul772.github.io/weather-web/" target="_blank" class="stretched-link"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="media/img/cards/card-header-img.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Site Canon</h5>
+                                </div>
+                            </div>
+                            <div class="card-back bg-white h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Site Canon</h5>
+                                    <p class="card-text text-center">Uma landing page da Canon, feita para uma competição da melhor landing page promovida pela NextStep, empresa júnior do curso de sistemas de informação da UFVJM. Feito em HTML, CSS, Bootstrap e JavaScript.</p>
+                                </div>
+                            </div>
+                            <a href="https://raul772.github.io/Project-Ferias/" target="_blank" class="stretched-link"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="media/img/cards/card-header-img.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Relógio Web</h5>
+                                </div>
+                            </div>
+                            <div class="card-back bg-white h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Relógio Web</h5>
+                                    <p class="card-text text-center">Um site que mostra as horas do sistema. Um dos primeiros projetos que desenvolvi utilizando Javascript. Site feito em HTML, CSS e JavaScript.</p>
+                                </div>
+                            </div>
+                            <a href="https://raul772.github.io/relogio-web/" target="_blank" class="stretched-link"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="media/img/cards/card-header-img.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Nextstep</h5>
+                                </div>
+                            </div>
+                            <div class="card-back bg-white h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title font-default text-center">Nextstep</h5>
+                                    <p class="card-text text-center">Um protótipo de site para a empresa júnior NextStep da UFVJM. Feito em HTML, CSS, Bootstrap e JavaScript como parte de um processo seletivo da empresa. Minha primeira vez utilizando Bootstrap.</p>
+                                </div>
+                            </div>
+                            <a href="https://raul772.github.io/Project-NX/" target="_blank" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="shape-divider-2 vw-100">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none"><path class="shape-fill" d="M0,40L60,33.3C120,27,240,13,360,13.3C480,13,600,27,720,41.7C840,57,960,73,1080,73.3C1200,73,1320,57,1440,46.7C1560,37,1680,33,1800,36.7C1920,40,2040,50,2160,60C2280,70,2400,80,2520,71.7C2640,63,2760,37,2880,28.3C3000,20,3120,30,3240,30C3360,30,3480,20,3600,21.7C3720,23,3840,37,3960,35C4080,33,4200,17,4320,8.3C4440,0,4560,0,4680,1.7C4800,3,4920,7,5040,16.7C5160,27,5280,43,5400,45C5520,47,5640,33,5760,33.3C5880,33,6000,47,6120,51.7C6240,57,6360,53,6480,45C6600,37,6720,23,6840,28.3C6960,33,7080,57,7200,58.3C7320,60,7440,40,7560,40C7680,40,7800,60,7920,70C8040,80,8160,80,8280,71.7C8400,63,8520,47,8580,38.3L8640,30L8640,100L8580,100C8520,100,8400,100,8280,100C8160,100,8040,100,7920,100C7800,100,7680,100,7560,100C7440,100,7320,100,7200,100C7080,100,6960,100,6840,100C6720,100,6600,100,6480,100C6360,100,6240,100,6120,100C6000,100,5880,100,5760,100C5640,100,5520,100,5400,100C5280,100,5160,100,5040,100C4920,100,4800,100,4680,100C4560,100,4440,100,4320,100C4200,100,4080,100,3960,100C3840,100,3720,100,3600,100C3480,100,3360,100,3240,100C3120,100,3000,100,2880,100C2760,100,2640,100,2520,100C2400,100,2280,100,2160,100C2040,100,1920,100,1800,100C1680,100,1560,100,1440,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"></path></svg>
+            </div>
+
+        </section>
+        <section class="container-fluid bg-purple mais">
+            <div class="container-sm py-5">
+                <div class="row flex-column justify-content-center align-items-center">
+                    <div class="col-sm-6 text-white">
+                        <h3 class="h3 text-center font-title">Aprendizado</h3>
+                        <p style="text-align: justify;">Atualmente estou focado nos estudos em HTML, CSS e Javascript. React e Python já estão em
+                        meus planos para um próximo estudo. Tive contato com as linguagens Java e C++, com as quais ainda não desenvolvi nenhum projeto, mas tenho interesse em aperfeiçoar minhas habilidades em ambas.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="bg-light pt-5">
+        <div class="shape-divider-3 vw-100">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none"><path class="shape-fill" d="M0,40L60,33.3C120,27,240,13,360,13.3C480,13,600,27,720,41.7C840,57,960,73,1080,73.3C1200,73,1320,57,1440,46.7C1560,37,1680,33,1800,36.7C1920,40,2040,50,2160,60C2280,70,2400,80,2520,71.7C2640,63,2760,37,2880,28.3C3000,20,3120,30,3240,30C3360,30,3480,20,3600,21.7C3720,23,3840,37,3960,35C4080,33,4200,17,4320,8.3C4440,0,4560,0,4680,1.7C4800,3,4920,7,5040,16.7C5160,27,5280,43,5400,45C5520,47,5640,33,5760,33.3C5880,33,6000,47,6120,51.7C6240,57,6360,53,6480,45C6600,37,6720,23,6840,28.3C6960,33,7080,57,7200,58.3C7320,60,7440,40,7560,40C7680,40,7800,60,7920,70C8040,80,8160,80,8280,71.7C8400,63,8520,47,8580,38.3L8640,30L8640,100L8580,100C8520,100,8400,100,8280,100C8160,100,8040,100,7920,100C7800,100,7680,100,7560,100C7440,100,7320,100,7200,100C7080,100,6960,100,6840,100C6720,100,6600,100,6480,100C6360,100,6240,100,6120,100C6000,100,5880,100,5760,100C5640,100,5520,100,5400,100C5280,100,5160,100,5040,100C4920,100,4800,100,4680,100C4560,100,4440,100,4320,100C4200,100,4080,100,3960,100C3840,100,3720,100,3600,100C3480,100,3360,100,3240,100C3120,100,3000,100,2880,100C2760,100,2640,100,2520,100C2400,100,2280,100,2160,100C2040,100,1920,100,1800,100C1680,100,1560,100,1440,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"></path></svg>
+        </div>
+        <div class="container-sm pt-5 pb-3 d-flex flex-column align-items-center">
+            <p class="font-default text-dark">2022 &copy; Raul772</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="particleGenerator.js"></script>
+
+    <script src="https://kit.fontawesome.com/6886debc6f.js" crossorigin="anonymous"></script>
+</body>
+</html>

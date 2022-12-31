@@ -1,0 +1,14 @@
+- Why:
+	Um portfólio online, contém diversas informações relevantes sobre quem você é, qual seu nível de expertise e quais são seus interesses. Facilitando o encontro de possíveis contratadores com o seu trabalho. Também serve como uma galeria online onde se encontra alguns dos seus melhores projetos e trabalhos.
+
+- What:
+	O portfólio online visa facilitar o acesso a informações sobre um profissional, como a área em que o mesmo atua, os interesses do profissional, expertises etc, e dar exemplos de trabalhos ou projetos já concluídos por ele. Tudo isso de maneira digital, organizada e, principalmente, de forma personalizada.
+
+- Where:
+	O portfólio pode ser acessado por qualquer lugar onde haja conexão com a internet, o intuito é que o site seja rápido e leve para ser funcional mesmo em conexões mais lentas.
+
+- When:
+	Na grande maioria das vezes, o portfólio online é acessado em momentos em que a empresa ou empregador procura um profissional com as habilidades desejadas para oferecer um trabalho. Outras pessoas também podem acessar um portfólio online para obter referências de projetos ou até mesmo para saber qual o nível de desenvolvimento pessoal de alguém.
+
+- How:
+	O portfólio deve ser capaz de apresentar as informações mais importantes, sobre um profissional, na visão de um empregador. Deve apresentar projetos de exemplo de autoria, ou com participação, do profissional de forma clara, concisa e explicativa. É importante que o portfólio seja personalizado de acordo com o profissional, de forma que quem visite o site tenha uma boa impressão sobre a personalidade do profissional.
