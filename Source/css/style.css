@@ -72,21 +72,12 @@ header{
 /* Projects Cards */
 
 .card{
-    min-height: 350px;
+    min-height: 250px;
     position: relative;
     border: 1px solid var(--cor6);
 }
 .card:hover{
     transform: scale(1.005);
-}
-.card-back{
-    position: absolute;
-    transition: .2s ease-in-out;
-    opacity: 0%;
-    border-radius: 0.375rem;
-}
-.card:hover .card-back{
-    opacity: 100%;
 }
 
 /* Shape Dividers */
@@ -94,8 +85,9 @@ header{
 .projetos{
     position: relative;
 }
-footer{
+.cv{
     position: relative;
+    min-height: 35rem;
 }
 
 .shape-divider-1, .shape-divider-2{
@@ -139,4 +131,8 @@ footer{
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+}
+
+.social-shape-fill{
+    fill: var(--cor6);
 }
